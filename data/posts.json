@@ -1,0 +1,8 @@
+[
+  { "id": "post1", "author": "user1", "title": "Create an Express server" },
+  { "id": "post2", "author": "user2", "title": "Learn AWS Lambda" },
+  { "id": "post3", "author": "user3", "title": "5 reasons to go serverless" },
+  { "id": "post4", "author": "user2", "title": "A guide to claudia.js" },
+  { "id": "post5", "author": "user2", "title": "Getting started with AWS API Gateway" },
+  { "id": "post6", "author": "user3", "title": "Writing a useful tutorial" }
+]

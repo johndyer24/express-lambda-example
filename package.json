@@ -1,0 +1,21 @@
+{
+  "name": "express-lambda-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-claudia": "claudia generate-serverless-express-proxy --express-module server",
+    "create-api": "claudia create --handler lambda.handler --deploy-proxy-api --region us-east-2",
+    "update-api": "claudia --update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "claudia": "^5.7.0"
+  }
+}
