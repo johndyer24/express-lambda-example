@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-serverless-express": "^3.3.6",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "claudia": "^5.7.0"
